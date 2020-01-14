@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Payoo</string>
+    <string name="edt_phone_hint">Gửi đến</string>
+    <string name="face_value_please_choose">Mệnh giá:</string>
+    <string name="transfer_amount">Số tiền %s</string>
+    <string name="next">Tiếp tục</string>
+    <string name="pay">Chuyển tiền</string>
+    <string name="title_top_up">Chuyển tiền</string>
+    <string name="require_input_otp">Nhập mã OTP trong tin nhắn được gửi vào số điện thoại: <b>%s</b>.</string>
+    <string name="title_receiver_info">THÔNG TIN VÍ NHẬN</string>
+    <string name="title_select_payment_method">CHỌN PHƯƠNG THỨC THANH TOÁN</string>
+    <string name="title_confirm_info">XÁC NHẬN LẠI THÔNG TIN</string>
+    <string name="payment_method_please_choose">Bạn vui lòng chọn phương thức thanh toán:</string>
+    <string name="payment_method_payoo">Ví Payoo</string>
+    <string name="payment_method_linked_account">Tài khoản liên kết</string>
+    <string name="payment_method_domestic_card">Thẻ ATM nội địa</string>
+    <string name="payment_method_international_card">Thẻ thanh toán quốc tế</string>
+    <string name="confirm_receiver_phone">Chuyển đến:</string>
+    <string name="confirm_amount">Số tiền:</string>
+    <string name="confirm_payment_method">Nguồn tiền:</string>
+
+    <string name="press_back_again_to_exit">Nhấn Back lần nữa để thoát</string>
+
+</resources>

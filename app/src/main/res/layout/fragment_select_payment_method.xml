@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.topup.paymentmethod.SelectPaymentMethodFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_method_please_choose"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"/>
+
+        <RadioGroup
+            android:id="@+id/rgPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbPayoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_flat_selector"
+                android:button="@drawable/radio_button_style"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/payment_method_payoo"
+                android:textColor="@drawable/radio_flat_text_selector" />
+
+            <RadioButton
+                android:id="@+id/rbLinkedAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_flat_selector"
+                android:button="@drawable/radio_button_style"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/payment_method_linked_account"
+                android:textColor="@drawable/radio_flat_text_selector" />
+
+            <RadioButton
+                android:id="@+id/rbInternationalCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_flat_selector"
+                android:button="@drawable/radio_button_style"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/payment_method_international_card"
+                android:textColor="@drawable/radio_flat_text_selector" />
+
+            <RadioButton
+                android:id="@+id/rbDomesticCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_flat_selector"
+                android:button="@drawable/radio_button_style"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/payment_method_domestic_card"
+                android:textColor="@drawable/radio_flat_text_selector" />
+        </RadioGroup>
+    </LinearLayout>
+</FrameLayout>
