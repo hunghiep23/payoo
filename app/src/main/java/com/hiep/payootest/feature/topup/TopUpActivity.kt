@@ -4,17 +4,12 @@ import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
-import com.hiep.payootest.PaymentMethod
 import com.hiep.payootest.R
 import com.hiep.payootest.feature.topup.enterphonenumber.EnterPhoneFragment
 import com.hiep.payootest.model.FaceValue
-import com.hiep.payootest.model.State
 import kotlinx.android.synthetic.main.activity_top_up.*
 import kotlinx.android.synthetic.main.layout_actionbar_topup.*
 

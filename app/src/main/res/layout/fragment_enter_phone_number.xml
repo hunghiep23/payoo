@@ -28,7 +28,9 @@
                 android:layout_height="wrap_content"
                 android:layout_toStartOf="@+id/imgBtnOpenContact"
                 android:hint="@string/edt_phone_hint"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:imeOptions="actionDone"
+                android:singleLine="true"/>
 
             <ImageButton
                 android:id="@+id/imgBtnOpenContact"

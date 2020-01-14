@@ -1,7 +1,6 @@
 package com.hiep.payootest.feature.topup.confirminfo
 
 import android.app.Activity.RESULT_OK
-import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
 import com.hiep.payootest.R
 import com.hiep.payootest.model.TopUpParams
